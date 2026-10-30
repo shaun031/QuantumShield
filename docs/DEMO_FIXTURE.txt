@@ -1,0 +1,3 @@
+QuantumShield Phase 17 synthetic demo fixture.
+This file contains no personal information, credentials, or secrets.
+Its only purpose is to verify an encrypted upload, recipient download, and SHA-256 match.

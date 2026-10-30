@@ -1,0 +1,6 @@
+Alembic migration environment for QuantumShield.
+
+The migration chain contains the users baseline, Phase 3 files table, Phase 4
+one-to-one `file_crypto_metadata`, and Phase 5 `user_crypto_keys` plus version-2
+KEM/KDF envelope fields. All later changes must use Alembic migrations.
+

@@ -1,0 +1,44 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Frontend
+node_modules/
+dist/
+.vite/
+
+# Editors and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Runtime storage (keep the directory, never its contents)
+backend/storage/files/*
+!backend/storage/files/.gitkeep
+
+# Logs
+*.log
+
+# Synthetic benchmark exports (may be large and machine-specific)
+backend/benchmark_results/
+
+# Disposable Phase 15 local browser smoke-test artifacts (remove after testing)
+backend/phase15_ui.db
+backend/phase15_ui_storage/
+
+# Disposable Phase 17 local browser smoke-test artifacts
+backend/phase17_demo.db
+backend/phase17_demo_storage/
+
